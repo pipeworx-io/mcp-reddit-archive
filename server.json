@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/reddit-archive",
+  "title": "Reddit Archive",
+  "description": "Reddit Archive — historical Reddit post and comment search, and subreddit",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/reddit-archive",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-reddit-archive",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/reddit-archive/mcp"
+    }
+  ]
+}

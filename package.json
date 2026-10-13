@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-reddit-archive",
+  "version": "0.1.0",
+  "description": "Reddit Archive — historical Reddit post and comment search, and subreddit",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-reddit-archive": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "reddit-archive"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-reddit-archive.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-0cbc659dbfbc8bb3e5ac5316f6af6fcd28e7466a2eefc97939fa21ed979300d3",
+    "sourceCommit": "c1590c25b5e94f477a53686cb61bd09cc196c1ee"
+  }
+}
