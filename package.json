@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-reddit-archive",
-  "version": "0.1.0",
-  "description": "Reddit Archive — historical Reddit post and comment search, and subreddit",
+  "version": "0.2.0",
+  "description": "Reddit Archive — historical Reddit post and comment search, and subreddit activity over time, sourced from the Arctic Shift archive. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-reddit-archive": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "reddit-archive"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-reddit-archive.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/reddit-archive",
   "pipeworx": {
-    "sourceHash": "v1-0cbc659dbfbc8bb3e5ac5316f6af6fcd28e7466a2eefc97939fa21ed979300d3",
-    "sourceCommit": "c1590c25b5e94f477a53686cb61bd09cc196c1ee"
+    "mode": "gateway",
+    "slug": "reddit-archive",
+    "gatewaySlug": "reddit-archive",
+    "sourceHash": "v1-90d6e6af2418473108dda8674845e90f0362f793e6cfcfdbbdc13b8887fcf0fc",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
