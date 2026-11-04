@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/reddit-archive",
   "title": "Reddit Archive",
   "description": "Reddit Archive — historical Reddit post and comment search, and subreddit activity over time…",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/reddit-archive",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-reddit-archive",

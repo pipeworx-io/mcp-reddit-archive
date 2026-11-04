@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-reddit-archive",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Reddit Archive — historical Reddit post and comment search, and subreddit activity over time, sourced from the Arctic Shift archive. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "reddit-archive",
     "gatewaySlug": "reddit-archive",
-    "sourceHash": "v1-90d6e6af2418473108dda8674845e90f0362f793e6cfcfdbbdc13b8887fcf0fc",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-a9a03b80e2c382448fb6aef294de1472c3131099af9b7383232b616227d09b56",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
